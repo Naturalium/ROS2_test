@@ -1,0 +1,14 @@
+[01m[K/home/simpson/Projects/ROS2/test1/src/cpp_srvcli/src/add_two_ints_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmy_interfaces/srv/add_two_ints.hpp: No such file or directory
+    2 | #include [01;31m[K"my_interfaces/srv/add_two_ints.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/simpson/Projects/ROS2/test1/src/cpp_srvcli/src/add_two_ints_server.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmy_interfaces/srv/add_two_ints.hpp: No such file or directory
+    2 | #include [01;31m[K"my_interfaces/srv/add_two_ints.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+make[2]: *** [CMakeFiles/server.dir/build.make:63: CMakeFiles/server.dir/src/add_two_ints_server.cpp.o] Error 1
+make[2]: *** [CMakeFiles/client.dir/build.make:63: CMakeFiles/client.dir/src/add_two_ints_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/server.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/client.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

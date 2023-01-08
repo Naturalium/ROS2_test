@@ -26,6 +26,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Num.msg"
   "msg/Sphere.msg"
   "srv/AddThreeInts.srv"
+  "srv/AddTwoInts.srv"
   DEPENDENCIES geometry_msgs
  )
 ament_export_dependencies(rosidl_default_runtime)

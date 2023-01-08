@@ -6,3 +6,7 @@ srv/AddThreeInts.idl
 srv/AddThreeInts.srv
 srv/AddThreeInts_Request.msg
 srv/AddThreeInts_Response.msg
+srv/AddTwoInts.idl
+srv/AddTwoInts.srv
+srv/AddTwoInts_Request.msg
+srv/AddTwoInts_Response.msg

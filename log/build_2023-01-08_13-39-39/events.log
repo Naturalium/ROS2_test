@@ -1,0 +1,248 @@
+[0.000000] (-) TimerEvent: {}
+[0.001272] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001387] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.001441] (my_interfaces) JobQueued: {'identifier': 'my_interfaces', 'dependencies': OrderedDict()}
+[0.001509] (my_interfaces) JobStarted: {'identifier': 'my_interfaces'}
+[0.045632] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'cmake'}
+[0.046928] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'build'}
+[0.047835] (my_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/simpson/Projects/ROS2/test1/build/my_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/simpson/Projects/ROS2/test1/build/my_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'simpson'), ('GIT_ASKPASS', '/home/simpson/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/simpson/Projects/ROS2/test1/install/my_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/simpson'), ('OLDPWD', '/home/simpson/Projects/ROS2/test1/src'), ('TERM_PROGRAM_VERSION', '1.74.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-4077acd1-6166-4ae1-9577-dd2345addcae.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/simpson/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/simpson/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('COLCON_PREFIX_PATH', '/home/simpson/Projects/ROS2/test1/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'simpson'), ('NAME', 'Code'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/simpson/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04LTS_2004.5.11.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/msys64/mingw64/bin:/mnt/c/msys65/usr/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Husarnet/bin:/mnt/c/Users/USER/AppData/Local/Programs/Python/Python35/Scripts/:/mnt/c/Users/USER/AppData/Local/Programs/Python/Python35/:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Bandizip/:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('DISPLAY', 'localhost:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-b4c392418b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/simpson/Projects/ROS2/test1/install/cpp_pubsub:/home/simpson/Projects/ROS2/test1/install/my_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/simpson/Projects/ROS2/test1/build/my_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/simpson/Projects/ROS2/test1/install/cpp_pubsub:/home/simpson/Projects/ROS2/test1/install/my_interfaces:/opt/ros/foxy'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.100560] (-) TimerEvent: {}
+[0.207051] (-) TimerEvent: {}
+[0.300771] (my_interfaces) StdoutLine: {'line': b'[  1%] Built target my_interfaces__cpp\n'}
+[0.313903] (-) TimerEvent: {}
+[0.321578] (my_interfaces) StdoutLine: {'line': b'[ 12%] Built target my_interfaces__rosidl_generator_c\n'}
+[0.419684] (-) TimerEvent: {}
+[0.488045] (my_interfaces) StdoutLine: {'line': b'[ 23%] Built target my_interfaces__rosidl_typesupport_cpp\n'}
+[0.498373] (my_interfaces) StdoutLine: {'line': b'[ 34%] Built target my_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.507521] (my_interfaces) StdoutLine: {'line': b'[ 50%] Built target my_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.509957] (my_interfaces) StdoutLine: {'line': b'[ 61%] Built target my_interfaces__rosidl_typesupport_c\n'}
+[0.513475] (my_interfaces) StdoutLine: {'line': b'[ 67%] Built target my_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.525970] (-) TimerEvent: {}
+[0.632053] (-) TimerEvent: {}
+[0.645097] (my_interfaces) StdoutLine: {'line': b'[ 78%] Built target my_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.738106] (-) TimerEvent: {}
+[0.739937] (my_interfaces) StdoutLine: {'line': b'[ 78%] Built target my_interfaces\n'}
+[0.841068] (my_interfaces) StdoutLine: {'line': b'[ 80%] Built target my_interfaces__py\n'}
+[0.841322] (-) TimerEvent: {}
+[0.951094] (-) TimerEvent: {}
+[0.964065] (my_interfaces) StdoutLine: {'line': b'[ 89%] Built target my_interfaces__python\n'}
+[1.057350] (-) TimerEvent: {}
+[1.103585] (my_interfaces) StdoutLine: {'line': b'[ 92%] Built target my_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.107289] (my_interfaces) StdoutLine: {'line': b'[ 96%] Built target my_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.109361] (my_interfaces) StdoutLine: {'line': b'[100%] Built target my_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.154519] (my_interfaces) CommandEnded: {'returncode': 0}
+[1.165043] (-) TimerEvent: {}
+[1.271815] (-) TimerEvent: {}
+[1.379379] (-) TimerEvent: {}
+[1.486875] (-) TimerEvent: {}
+[1.594595] (-) TimerEvent: {}
+[1.700893] (-) TimerEvent: {}
+[1.809216] (-) TimerEvent: {}
+[1.914906] (-) TimerEvent: {}
+[2.021462] (-) TimerEvent: {}
+[2.127033] (-) TimerEvent: {}
+[2.139974] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'install'}
+[2.182273] (my_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/simpson/Projects/ROS2/test1/build/my_interfaces'], 'cwd': '/home/simpson/Projects/ROS2/test1/build/my_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'simpson'), ('GIT_ASKPASS', '/home/simpson/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/simpson/Projects/ROS2/test1/install/my_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/simpson'), ('OLDPWD', '/home/simpson/Projects/ROS2/test1/src'), ('TERM_PROGRAM_VERSION', '1.74.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-4077acd1-6166-4ae1-9577-dd2345addcae.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/simpson/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/simpson/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('COLCON_PREFIX_PATH', '/home/simpson/Projects/ROS2/test1/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'simpson'), ('NAME', 'Code'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/simpson/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04LTS_2004.5.11.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/msys64/mingw64/bin:/mnt/c/msys65/usr/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Husarnet/bin:/mnt/c/Users/USER/AppData/Local/Programs/Python/Python35/Scripts/:/mnt/c/Users/USER/AppData/Local/Programs/Python/Python35/:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Bandizip/:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('DISPLAY', 'localhost:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-b4c392418b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/simpson/Projects/ROS2/test1/install/cpp_pubsub:/home/simpson/Projects/ROS2/test1/install/my_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/simpson/Projects/ROS2/test1/build/my_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/simpson/Projects/ROS2/test1/install/cpp_pubsub:/home/simpson/Projects/ROS2/test1/install/my_interfaces:/opt/ros/foxy'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[2.214261] (my_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.214577] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_interfaces\n'}
+[2.214800] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces\n'}
+[2.214939] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg\n'}
+[2.215095] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail\n'}
+[2.215241] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/num__functions.c\n'}
+[2.215390] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/num__functions.h\n'}
+[2.215522] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/num__struct.h\n'}
+[2.215675] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/num__type_support.h\n'}
+[2.215843] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/sphere__functions.c\n'}
+[2.215993] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/sphere__functions.h\n'}
+[2.216086] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/sphere__struct.h\n'}
+[2.216194] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/sphere__type_support.h\n'}
+[2.216301] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/target_coordinates__functions.c\n'}
+[2.216392] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/target_coordinates__functions.h\n'}
+[2.216532] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/target_coordinates__struct.h\n'}
+[2.216782] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/target_coordinates__type_support.h\n'}
+[2.217031] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/num.h\n'}
+[2.217234] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.217395] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/sphere.h\n'}
+[2.217578] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/target_coordinates.h\n'}
+[2.217685] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv\n'}
+[2.217790] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/add_three_ints.h\n'}
+[2.217886] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/add_two_ints.h\n'}
+[2.217969] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail\n'}
+[2.218066] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail/add_three_ints__functions.c\n'}
+[2.218148] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail/add_three_ints__functions.h\n'}
+[2.218226] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail/add_three_ints__struct.h\n'}
+[2.218306] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail/add_three_ints__type_support.h\n'}
+[2.218444] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail/add_two_ints__functions.c\n'}
+[2.218531] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail/add_two_ints__functions.h\n'}
+[2.218625] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail/add_two_ints__struct.h\n'}
+[2.218705] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail/add_two_ints__type_support.h\n'}
+[2.218783] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/environment/library_path.sh\n'}
+[2.218859] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/environment/library_path.dsv\n'}
+[2.222179] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so\n'}
+[2.222764] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces\n'}
+[2.222982] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg\n'}
+[2.223199] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail\n'}
+[2.223395] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[2.223536] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[2.223644] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/target_coordinates__rosidl_typesupport_fastrtps_c.h\n'}
+[2.223732] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.223826] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv\n'}
+[2.223904] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail\n'}
+[2.223998] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[2.224089] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[2.228842] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[2.229027] (-) TimerEvent: {}
+[2.229437] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces\n'}
+[2.229685] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg\n'}
+[2.229843] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail\n'}
+[2.230028] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/dds_fastrtps\n'}
+[2.230220] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.230384] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.230500] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/target_coordinates__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.230632] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.230799] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv\n'}
+[2.231007] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail\n'}
+[2.231234] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.231442] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.231588] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail/dds_fastrtps\n'}
+[2.236422] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.237174] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces\n'}
+[2.237496] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg\n'}
+[2.237662] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail\n'}
+[2.237828] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[2.237962] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/num__type_support.c\n'}
+[2.238157] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[2.238434] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/sphere__type_support.c\n'}
+[2.238584] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/target_coordinates__rosidl_typesupport_introspection_c.h\n'}
+[2.238742] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/target_coordinates__type_support.c\n'}
+[2.238893] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.239068] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv\n'}
+[2.239335] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail\n'}
+[2.239490] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[2.239574] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail/add_three_ints__type_support.c\n'}
+[2.239653] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h\n'}
+[2.239729] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail/add_two_ints__type_support.c\n'}
+[2.244024] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.249098] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so\n'}
+[2.249555] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces\n'}
+[2.249730] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg\n'}
+[2.249890] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail\n'}
+[2.250052] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/num__builder.hpp\n'}
+[2.250153] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/num__struct.hpp\n'}
+[2.250251] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/num__traits.hpp\n'}
+[2.250352] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/sphere__builder.hpp\n'}
+[2.250449] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/sphere__struct.hpp\n'}
+[2.250550] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/sphere__traits.hpp\n'}
+[2.250673] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/target_coordinates__builder.hpp\n'}
+[2.250859] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/target_coordinates__struct.hpp\n'}
+[2.250997] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/target_coordinates__traits.hpp\n'}
+[2.251206] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/num.hpp\n'}
+[2.251387] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/sphere.hpp\n'}
+[2.251517] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/target_coordinates.hpp\n'}
+[2.251609] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv\n'}
+[2.251748] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/add_three_ints.hpp\n'}
+[2.251907] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/add_two_ints.hpp\n'}
+[2.252019] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail\n'}
+[2.252201] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail/add_three_ints__builder.hpp\n'}
+[2.252376] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail/add_three_ints__struct.hpp\n'}
+[2.252538] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail/add_three_ints__traits.hpp\n'}
+[2.252680] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail/add_two_ints__builder.hpp\n'}
+[2.252812] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail/add_two_ints__struct.hpp\n'}
+[2.253104] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail/add_two_ints__traits.hpp\n'}
+[2.253256] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces\n'}
+[2.253406] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg\n'}
+[2.253523] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail\n'}
+[2.253666] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.253824] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/num__type_support.cpp\n'}
+[2.254014] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.254273] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/sphere__type_support.cpp\n'}
+[2.254397] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/target_coordinates__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.254599] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/target_coordinates__type_support.cpp\n'}
+[2.254743] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv\n'}
+[2.254959] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail\n'}
+[2.255120] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.255260] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail/add_three_ints__type_support.cpp\n'}
+[2.255483] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.255632] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/srv/detail/add_two_ints__type_support.cpp\n'}
+[2.259272] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.263677] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so\n'}
+[2.264182] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/environment/pythonpath.sh\n'}
+[2.264478] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/environment/pythonpath.dsv\n'}
+[2.264654] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/__init__.py\n'}
+[2.319332] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/msg\n'}
+[2.319780] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/msg/_num.py\n'}
+[2.320072] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/msg/_num_s.c\n'}
+[2.320269] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/msg/_sphere.py\n'}
+[2.320440] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/msg/_sphere_s.c\n'}
+[2.320598] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/msg/_target_coordinates.py\n'}
+[2.320846] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/msg/_target_coordinates_s.c\n'}
+[2.321034] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/msg/__init__.py\n'}
+[2.321197] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/srv\n'}
+[2.321291] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/srv/_add_three_ints.py\n'}
+[2.321397] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/srv/_add_three_ints_s.c\n'}
+[2.321763] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/srv/_add_two_ints.py\n'}
+[2.321909] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/srv/_add_two_ints_s.c\n'}
+[2.322041] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/srv/__init__.py\n'}
+[2.327158] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.333797] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.334061] (-) TimerEvent: {}
+[2.340367] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.347067] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/libmy_interfaces__python.so\n'}
+[2.347603] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/msg/Num.idl\n'}
+[2.347804] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/msg/Sphere.idl\n'}
+[2.347928] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/srv/AddThreeInts.idl\n'}
+[2.348193] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/srv/AddTwoInts.idl\n'}
+[2.348491] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/msg/Num.msg\n'}
+[2.348738] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/msg/Sphere.msg\n'}
+[2.348863] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/srv/AddThreeInts.srv\n'}
+[2.348994] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/srv/AddThreeInts_Request.msg\n'}
+[2.349136] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/srv/AddThreeInts_Response.msg\n'}
+[2.349270] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/srv/AddTwoInts.srv\n'}
+[2.349368] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/srv/AddTwoInts_Request.msg\n'}
+[2.349485] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/srv/AddTwoInts_Response.msg\n'}
+[2.349643] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/ament_index/resource_index/package_run_dependencies/my_interfaces\n'}
+[2.349755] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/ament_index/resource_index/parent_prefix_path/my_interfaces\n'}
+[2.349858] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.sh\n'}
+[2.350000] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.dsv\n'}
+[2.350102] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/environment/path.sh\n'}
+[2.350183] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/environment/path.dsv\n'}
+[2.350261] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/local_setup.bash\n'}
+[2.350348] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/local_setup.sh\n'}
+[2.350463] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/local_setup.zsh\n'}
+[2.350636] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/local_setup.dsv\n'}
+[2.350753] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/package.dsv\n'}
+[2.352217] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/ament_index/resource_index/packages/my_interfaces\n'}
+[2.352659] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_generator_cExport.cmake\n'}
+[2.352807] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.353525] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.354124] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.354788] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[2.355068] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.355706] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_generator_cppExport.cmake\n'}
+[2.356404] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.356567] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.357147] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[2.357309] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.357439] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[2.357554] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.357666] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.357830] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.358024] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.358186] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.358332] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.358467] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig.cmake\n'}
+[2.358576] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig-version.cmake\n'}
+[2.358688] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/package.xml\n'}
+[2.363521] (my_interfaces) CommandEnded: {'returncode': 0}
+[2.445089] (-) TimerEvent: {}
+[2.551031] (-) TimerEvent: {}
+[2.656929] (-) TimerEvent: {}
+[2.763593] (-) TimerEvent: {}
+[2.869344] (-) TimerEvent: {}
+[2.975067] (-) TimerEvent: {}
+[3.081031] (-) TimerEvent: {}
+[3.187783] (-) TimerEvent: {}
+[3.293925] (-) TimerEvent: {}
+[3.400075] (-) TimerEvent: {}
+[3.425190] (my_interfaces) JobEnded: {'identifier': 'my_interfaces', 'rc': 0}
+[3.428856] (-) EventReactorShutdown: {}

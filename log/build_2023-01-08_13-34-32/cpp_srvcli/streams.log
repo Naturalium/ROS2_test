@@ -1,0 +1,20 @@
+[0.118s] Invoking command in '/home/simpson/Projects/ROS2/test1/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/simpson/Projects/ROS2/test1/install/my_interfaces:/home/simpson/Projects/ROS2/test1/install/cpp_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/simpson/Projects/ROS2/test1/build/cpp_srvcli -- -j8 -l8
+[0.315s] [35m[1mScanning dependencies of target client[0m
+[0.318s] [35m[1mScanning dependencies of target server[0m
+[0.490s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[0.491s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[0.913s] [01m[K/home/simpson/Projects/ROS2/test1/src/cpp_srvcli/src/add_two_ints_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmy_interfaces/srv/add_two_ints.hpp: No such file or directory
+[0.914s]     2 | #include [01;31m[K"my_interfaces/srv/add_two_ints.hpp"[m[K
+[0.914s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.914s] [01m[K/home/simpson/Projects/ROS2/test1/src/cpp_srvcli/src/add_two_ints_server.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmy_interfaces/srv/add_two_ints.hpp: No such file or directory
+[0.914s]     2 | #include [01;31m[K"my_interfaces/srv/add_two_ints.hpp"[m[K
+[0.915s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.915s] compilation terminated.
+[0.915s] compilation terminated.
+[0.916s] make[2]: *** [CMakeFiles/server.dir/build.make:63: CMakeFiles/server.dir/src/add_two_ints_server.cpp.o] Error 1
+[0.916s] make[2]: *** [CMakeFiles/client.dir/build.make:63: CMakeFiles/client.dir/src/add_two_ints_client.cpp.o] Error 1
+[0.917s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/server.dir/all] Error 2
+[0.917s] make[1]: *** Waiting for unfinished jobs....
+[0.918s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/client.dir/all] Error 2
+[0.919s] make: *** [Makefile:141: all] Error 2
+[0.923s] Invoked command in '/home/simpson/Projects/ROS2/test1/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=/home/simpson/Projects/ROS2/test1/install/my_interfaces:/home/simpson/Projects/ROS2/test1/install/cpp_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/simpson/Projects/ROS2/test1/build/cpp_srvcli -- -j8 -l8

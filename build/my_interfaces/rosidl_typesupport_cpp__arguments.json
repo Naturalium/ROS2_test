@@ -5,7 +5,8 @@
   "idl_tuples": [
     "/home/simpson/Projects/ROS2/test1/build/my_interfaces/rosidl_adapter/my_interfaces:msg/Num.idl",
     "/home/simpson/Projects/ROS2/test1/build/my_interfaces/rosidl_adapter/my_interfaces:msg/Sphere.idl",
-    "/home/simpson/Projects/ROS2/test1/build/my_interfaces/rosidl_adapter/my_interfaces:srv/AddThreeInts.idl"
+    "/home/simpson/Projects/ROS2/test1/build/my_interfaces/rosidl_adapter/my_interfaces:srv/AddThreeInts.idl",
+    "/home/simpson/Projects/ROS2/test1/build/my_interfaces/rosidl_adapter/my_interfaces:srv/AddTwoInts.idl"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/foxy/share/geometry_msgs/msg/Accel.idl",
@@ -80,6 +81,7 @@
     "/home/simpson/Projects/ROS2/test1/build/my_interfaces/rosidl_adapter/my_interfaces/msg/Num.idl",
     "/home/simpson/Projects/ROS2/test1/build/my_interfaces/rosidl_adapter/my_interfaces/msg/Sphere.idl",
     "/home/simpson/Projects/ROS2/test1/build/my_interfaces/rosidl_adapter/my_interfaces/srv/AddThreeInts.idl",
+    "/home/simpson/Projects/ROS2/test1/build/my_interfaces/rosidl_adapter/my_interfaces/srv/AddTwoInts.idl",
     "/opt/ros/foxy/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/foxy/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/foxy/share/geometry_msgs/msg/AccelWithCovariance.idl",

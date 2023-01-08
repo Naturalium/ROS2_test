@@ -3,6 +3,7 @@
   "non_idl_tuples": [
     "/home/simpson/Projects/ROS2/test1/src/my_interfaces:msg/Num.msg",
     "/home/simpson/Projects/ROS2/test1/src/my_interfaces:msg/Sphere.msg",
-    "/home/simpson/Projects/ROS2/test1/src/my_interfaces:srv/AddThreeInts.srv"
+    "/home/simpson/Projects/ROS2/test1/src/my_interfaces:srv/AddThreeInts.srv",
+    "/home/simpson/Projects/ROS2/test1/src/my_interfaces:srv/AddTwoInts.srv"
   ]
 }

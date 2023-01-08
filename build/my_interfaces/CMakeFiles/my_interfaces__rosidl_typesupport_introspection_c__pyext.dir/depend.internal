@@ -106,3 +106,6 @@ CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_g
  rosidl_generator_c/my_interfaces/srv/detail/add_three_ints__functions.h
  rosidl_generator_c/my_interfaces/srv/detail/add_three_ints__struct.h
  rosidl_generator_c/my_interfaces/srv/detail/add_three_ints__type_support.h
+ rosidl_generator_c/my_interfaces/srv/detail/add_two_ints__functions.h
+ rosidl_generator_c/my_interfaces/srv/detail/add_two_ints__struct.h
+ rosidl_generator_c/my_interfaces/srv/detail/add_two_ints__type_support.h

@@ -65,6 +65,10 @@ CMakeFiles/my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/add_three_
 CMakeFiles/my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/detail/add_three_ints__builder.hpp
 CMakeFiles/my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/detail/add_three_ints__struct.hpp
 CMakeFiles/my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/detail/add_three_ints__traits.hpp
+CMakeFiles/my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/add_two_ints.hpp
+CMakeFiles/my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/detail/add_two_ints__builder.hpp
+CMakeFiles/my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/detail/add_two_ints__struct.hpp
+CMakeFiles/my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/detail/add_two_ints__traits.hpp
 
 
 rosidl_generator_cpp/my_interfaces/msg/num.hpp: /opt/ros/foxy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -85,6 +89,7 @@ rosidl_generator_cpp/my_interfaces/msg/num.hpp: /opt/ros/foxy/share/rosidl_gener
 rosidl_generator_cpp/my_interfaces/msg/num.hpp: rosidl_adapter/my_interfaces/msg/Num.idl
 rosidl_generator_cpp/my_interfaces/msg/num.hpp: rosidl_adapter/my_interfaces/msg/Sphere.idl
 rosidl_generator_cpp/my_interfaces/msg/num.hpp: rosidl_adapter/my_interfaces/srv/AddThreeInts.idl
+rosidl_generator_cpp/my_interfaces/msg/num.hpp: rosidl_adapter/my_interfaces/srv/AddTwoInts.idl
 rosidl_generator_cpp/my_interfaces/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_cpp/my_interfaces/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_cpp/my_interfaces/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -182,6 +187,18 @@ rosidl_generator_cpp/my_interfaces/srv/detail/add_three_ints__struct.hpp: rosidl
 rosidl_generator_cpp/my_interfaces/srv/detail/add_three_ints__traits.hpp: rosidl_generator_cpp/my_interfaces/msg/num.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_interfaces/srv/detail/add_three_ints__traits.hpp
 
+rosidl_generator_cpp/my_interfaces/srv/add_two_ints.hpp: rosidl_generator_cpp/my_interfaces/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_interfaces/srv/add_two_ints.hpp
+
+rosidl_generator_cpp/my_interfaces/srv/detail/add_two_ints__builder.hpp: rosidl_generator_cpp/my_interfaces/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_interfaces/srv/detail/add_two_ints__builder.hpp
+
+rosidl_generator_cpp/my_interfaces/srv/detail/add_two_ints__struct.hpp: rosidl_generator_cpp/my_interfaces/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_interfaces/srv/detail/add_two_ints__struct.hpp
+
+rosidl_generator_cpp/my_interfaces/srv/detail/add_two_ints__traits.hpp: rosidl_generator_cpp/my_interfaces/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_interfaces/srv/detail/add_two_ints__traits.hpp
+
 my_interfaces__cpp: CMakeFiles/my_interfaces__cpp
 my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/msg/num.hpp
 my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/msg/detail/num__builder.hpp
@@ -195,6 +212,10 @@ my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/add_three_ints.hpp
 my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/detail/add_three_ints__builder.hpp
 my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/detail/add_three_ints__struct.hpp
 my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/detail/add_three_ints__traits.hpp
+my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/add_two_ints.hpp
+my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/detail/add_two_ints__builder.hpp
+my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/detail/add_two_ints__struct.hpp
+my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/detail/add_two_ints__traits.hpp
 my_interfaces__cpp: CMakeFiles/my_interfaces__cpp.dir/build.make
 
 .PHONY : my_interfaces__cpp

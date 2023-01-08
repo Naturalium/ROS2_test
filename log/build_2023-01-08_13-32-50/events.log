@@ -1,0 +1,111 @@
+[0.000000] (-) TimerEvent: {}
+[0.000222] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000825] (-) JobUnselected: {'identifier': 'my_interfaces'}
+[0.000922] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict([('my_interfaces', '/home/simpson/Projects/ROS2/test1/install/my_interfaces')])}
+[0.000999] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.066877] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.068085] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '/home/simpson/Projects/ROS2/test1/src/cpp_srvcli', '-DCMAKE_INSTALL_PREFIX=/home/simpson/Projects/ROS2/test1/install/cpp_srvcli'], 'cwd': '/home/simpson/Projects/ROS2/test1/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'simpson'), ('GIT_ASKPASS', '/home/simpson/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/simpson/Projects/ROS2/test1/install/my_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/simpson'), ('OLDPWD', '/home/simpson/Projects/ROS2/test1/src'), ('TERM_PROGRAM_VERSION', '1.74.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-4077acd1-6166-4ae1-9577-dd2345addcae.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/simpson/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/simpson/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('COLCON_PREFIX_PATH', '/home/simpson/Projects/ROS2/test1/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'simpson'), ('NAME', 'Code'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/simpson/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04LTS_2004.5.11.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/msys64/mingw64/bin:/mnt/c/msys65/usr/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Husarnet/bin:/mnt/c/Users/USER/AppData/Local/Programs/Python/Python35/Scripts/:/mnt/c/Users/USER/AppData/Local/Programs/Python/Python35/:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Bandizip/:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('DISPLAY', 'localhost:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-b4c392418b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/simpson/Projects/ROS2/test1/install/cpp_pubsub:/home/simpson/Projects/ROS2/test1/install/my_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/simpson/Projects/ROS2/test1/build/cpp_srvcli'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/simpson/Projects/ROS2/test1/install/my_interfaces:/home/simpson/Projects/ROS2/test1/install/cpp_pubsub:/opt/ros/foxy'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.107324] (-) TimerEvent: {}
+[0.212859] (-) TimerEvent: {}
+[0.301739] (cpp_srvcli) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.320647] (-) TimerEvent: {}
+[0.426406] (-) TimerEvent: {}
+[0.493301] (cpp_srvcli) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.513116] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.532048] (-) TimerEvent: {}
+[0.638589] (-) TimerEvent: {}
+[0.745445] (-) TimerEvent: {}
+[0.851524] (-) TimerEvent: {}
+[0.851933] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.854207] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.957318] (-) TimerEvent: {}
+[1.063426] (-) TimerEvent: {}
+[1.170029] (-) TimerEvent: {}
+[1.187687] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.201891] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.202223] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.214544] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.275391] (-) TimerEvent: {}
+[1.380410] (-) TimerEvent: {}
+[1.487369] (-) TimerEvent: {}
+[1.569859] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.571722] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.592634] (-) TimerEvent: {}
+[1.699320] (-) TimerEvent: {}
+[1.804560] (-) TimerEvent: {}
+[1.911245] (-) TimerEvent: {}
+[1.921882] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.935672] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.936231] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.951029] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.996740] (cpp_srvcli) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.996988] (cpp_srvcli) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.016338] (-) TimerEvent: {}
+[2.122626] (-) TimerEvent: {}
+[2.229285] (-) TimerEvent: {}
+[2.335970] (-) TimerEvent: {}
+[2.377913] (cpp_srvcli) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.443186] (-) TimerEvent: {}
+[2.492797] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.506438] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.547250] (-) TimerEvent: {}
+[2.652631] (-) TimerEvent: {}
+[2.758149] (-) TimerEvent: {}
+[2.864578] (-) TimerEvent: {}
+[2.956019] (cpp_srvcli) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.970116] (-) TimerEvent: {}
+[3.075473] (-) TimerEvent: {}
+[3.078291] (cpp_srvcli) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.182367] (-) TimerEvent: {}
+[3.288953] (-) TimerEvent: {}
+[3.396046] (-) TimerEvent: {}
+[3.503348] (-) TimerEvent: {}
+[3.545331] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.609911] (-) TimerEvent: {}
+[3.693175] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.697699] (cpp_srvcli) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.706626] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.715832] (-) TimerEvent: {}
+[3.821864] (-) TimerEvent: {}
+[3.928272] (-) TimerEvent: {}
+[4.035352] (-) TimerEvent: {}
+[4.059529] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.061067] (cpp_srvcli) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.144021] (-) TimerEvent: {}
+[4.249419] (-) TimerEvent: {}
+[4.356167] (-) TimerEvent: {}
+[4.419321] (cpp_srvcli) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[4.420664] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[4.462451] (-) TimerEvent: {}
+[4.568222] (-) TimerEvent: {}
+[4.675401] (-) TimerEvent: {}
+[4.783573] (-) TimerEvent: {}
+[4.786341] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[4.787408] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.889677] (-) TimerEvent: {}
+[4.995443] (-) TimerEvent: {}
+[5.101222] (-) TimerEvent: {}
+[5.121667] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[5.124059] (cpp_srvcli) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.207145] (-) TimerEvent: {}
+[5.312937] (-) TimerEvent: {}
+[5.394500] (cpp_srvcli) StdoutLine: {'line': b'-- Found my_interfaces: 0.0.0 (/home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake)\n'}
+[5.418214] (-) TimerEvent: {}
+[5.526133] (-) TimerEvent: {}
+[5.572039] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[5.630622] (-) TimerEvent: {}
+[5.738540] (-) TimerEvent: {}
+[5.752021] (cpp_srvcli) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):\n'}
+[5.752524] (cpp_srvcli) StderrLine: {'line': b"  ament_target_dependencies() the passed package name 'example_interfaces'\n"}
+[5.752738] (cpp_srvcli) StderrLine: {'line': b'  was not found before\n'}
+[5.752938] (cpp_srvcli) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.753114] (cpp_srvcli) StderrLine: {'line': b'  CMakeLists.txt:35 (ament_target_dependencies)\n'}
+[5.753460] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[5.753619] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[5.756579] (cpp_srvcli) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.756885] (cpp_srvcli) StdoutLine: {'line': b'See also "/home/simpson/Projects/ROS2/test1/build/cpp_srvcli/CMakeFiles/CMakeOutput.log".\n'}
+[5.757005] (cpp_srvcli) StdoutLine: {'line': b'See also "/home/simpson/Projects/ROS2/test1/build/cpp_srvcli/CMakeFiles/CMakeError.log".\n'}
+[5.772713] (cpp_srvcli) CommandEnded: {'returncode': 1}
+[5.845375] (-) TimerEvent: {}
+[5.861056] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 1}
+[5.863611] (-) EventReactorShutdown: {}

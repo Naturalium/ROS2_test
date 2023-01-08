@@ -10,6 +10,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/my_interfaces/srv/__init__.py"
   "../rosidl_generator_py/my_interfaces/srv/_add_three_ints.py"
   "../rosidl_generator_py/my_interfaces/srv/_add_three_ints_s.c"
+  "../rosidl_generator_py/my_interfaces/srv/_add_two_ints.py"
+  "../rosidl_generator_py/my_interfaces/srv/_add_two_ints_s.c"
   "CMakeFiles/my_interfaces__py"
 )
 
