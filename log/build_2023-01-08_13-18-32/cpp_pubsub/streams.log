@@ -1,0 +1,28 @@
+[0.085s] Invoking command in '/home/simpson/Projects/ROS2/test1/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/simpson/Projects/ROS2/test1/install/my_interfaces:/home/simpson/Projects/ROS2/test1/install/cpp_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/simpson/Projects/ROS2/test1/build/cpp_pubsub -- -j8 -l8
+[0.267s] [35m[1mScanning dependencies of target listener[0m
+[0.336s] [ 50%] Built target talker
+[0.424s] [ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[7.621s] [100%] [32m[1mLinking CXX executable listener[0m
+[8.168s] [100%] Built target listener
+[8.211s] Invoked command in '/home/simpson/Projects/ROS2/test1/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/simpson/Projects/ROS2/test1/install/my_interfaces:/home/simpson/Projects/ROS2/test1/install/cpp_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/simpson/Projects/ROS2/test1/build/cpp_pubsub -- -j8 -l8
+[8.482s] Invoking command in '/home/simpson/Projects/ROS2/test1/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/simpson/Projects/ROS2/test1/install/my_interfaces:/home/simpson/Projects/ROS2/test1/install/cpp_pubsub:/opt/ros/foxy /usr/bin/cmake --install /home/simpson/Projects/ROS2/test1/build/cpp_pubsub
+[8.512s] -- Install configuration: ""
+[8.519s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/cpp_pubsub/lib/cpp_pubsub/talker
+[8.520s] -- Installing: /home/simpson/Projects/ROS2/test1/install/cpp_pubsub/lib/cpp_pubsub/listener
+[8.548s] -- Set runtime path of "/home/simpson/Projects/ROS2/test1/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[8.548s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[8.549s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[8.549s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[8.549s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[8.549s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[8.549s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[8.549s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[8.550s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[8.550s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[8.550s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[8.550s] -- Installing: /home/simpson/Projects/ROS2/test1/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[8.551s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[8.551s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[8.551s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[8.551s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[8.556s] Invoked command in '/home/simpson/Projects/ROS2/test1/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/simpson/Projects/ROS2/test1/install/my_interfaces:/home/simpson/Projects/ROS2/test1/install/cpp_pubsub:/opt/ros/foxy /usr/bin/cmake --install /home/simpson/Projects/ROS2/test1/build/cpp_pubsub

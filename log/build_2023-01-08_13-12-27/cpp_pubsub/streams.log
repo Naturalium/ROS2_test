@@ -1,0 +1,62 @@
+[0.085s] Invoking command in '/home/simpson/Projects/ROS2/test1/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/simpson/Projects/ROS2/test1/install/my_interfaces:/home/simpson/Projects/ROS2/test1/install/cpp_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/simpson/Projects/ROS2/test1/build/cpp_pubsub -- -j8 -l8
+[0.168s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.208s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.559s] -- Found my_interfaces: 0.0.0 (/home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake)
+[0.608s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.613s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.052s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.224s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.268s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.269s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.381s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.530s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.533s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.533s] -- Configured cppcheck include dirs: 
+[1.533s] -- Configured cppcheck exclude dirs and/or files: 
+[1.536s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.536s] -- Configured cpplint exclude dirs and/or files: 
+[1.538s] -- Added test 'lint_cmake' to check CMake code style
+[1.541s] -- Added test 'uncrustify' to check C / C++ code style
+[1.541s] -- Configured uncrustify additional arguments: 
+[1.541s] -- Added test 'xmllint' to check XML markup files
+[1.560s] -- Configuring done
+[1.651s] -- Generating done
+[1.684s] -- Build files have been written to: /home/simpson/Projects/ROS2/test1/build/cpp_pubsub
+[1.839s] [35m[1mScanning dependencies of target listener[0m
+[1.845s] [35m[1mScanning dependencies of target talker[0m
+[1.933s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[1.938s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[3.409s] [01m[K/home/simpson/Projects/ROS2/test1/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[3.410s] [01m[K/home/simpson/Projects/ROS2/test1/src/cpp_pubsub/src/publisher_member_function.cpp:34:45:[m[K [01;31m[Kerror: [m[K‘[01m[Ktutorial_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[3.410s]    34 |     publisher_new_ = this->create_publisher<[01;31m[Ktutorial_interfaces[m[K::msg::Num>("topic2", 10);
+[3.410s]       |                                             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.411s]       |                                             [32m[Krcl_interfaces[m[K
+[3.411s] [01m[K/home/simpson/Projects/ROS2/test1/src/cpp_pubsub/src/publisher_member_function.cpp:34:28:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[3.411s]    34 |     publisher_new_ = this->[01;31m[Kcreate_publisher<tutorial_interfaces::msg::Num>[m[K("topic2", 10);
+[3.411s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.411s] [01m[K/home/simpson/Projects/ROS2/test1/src/cpp_pubsub/src/publisher_member_function.cpp:34:88:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::create_publisher<<expression error> >(const char [7], int)[m[K’
+[3.411s]    34 |     publisher_new_ = this->create_publisher<tutorial_interfaces::msg::Num>("topic2", 10[01;31m[K)[m[K;
+[3.411s]       |                                                                                        [01;31m[K^[m[K
+[3.411s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[3.411s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.412s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[3.412s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[3.412s]                  from [01m[K/home/simpson/Projects/ROS2/test1/src/cpp_pubsub/src/publisher_member_function.cpp:18[m[K:
+[3.412s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[3.412s]    71 | [01;36m[KNode[m[K::create_publisher(
+[3.412s]       | [01;36m[K^~~~[m[K
+[3.412s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.412s] [01m[K/home/simpson/Projects/ROS2/test1/src/cpp_pubsub/src/publisher_member_function.cpp:34:88:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.412s]    34 |     publisher_new_ = this->create_publisher<tutorial_interfaces::msg::Num>("topic2", 10[01;31m[K)[m[K;
+[3.413s]       |                                                                                        [01;31m[K^[m[K
+[3.425s] [01m[K/home/simpson/Projects/ROS2/test1/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[3.426s] [01m[K/home/simpson/Projects/ROS2/test1/src/cpp_pubsub/src/publisher_member_function.cpp:43:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ktutorial_interfaces[m[K’ has not been declared
+[3.426s]    43 |     auto message_2 = [01;31m[Ktutorial_interfaces[m[K::msg::Num();
+[3.426s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.476s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[4.478s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+[4.478s] make[1]: *** Waiting for unfinished jobs....
+[7.944s] [ 75%] [32m[1mLinking CXX executable listener[0m
+[8.463s] [ 75%] Built target listener
+[8.467s] make: *** [Makefile:141: all] Error 2
+[8.472s] Invoked command in '/home/simpson/Projects/ROS2/test1/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/home/simpson/Projects/ROS2/test1/install/my_interfaces:/home/simpson/Projects/ROS2/test1/install/cpp_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/simpson/Projects/ROS2/test1/build/cpp_pubsub -- -j8 -l8

@@ -1,0 +1,214 @@
+[0.115s] Invoking command in '/home/simpson/Projects/ROS2/test1/build/my_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/simpson/Projects/ROS2/test1/src/my_interfaces -DCMAKE_INSTALL_PREFIX=/home/simpson/Projects/ROS2/test1/install/my_interfaces
+[1.015s] -- The C compiler identification is GNU 9.4.0
+[1.604s] -- The CXX compiler identification is GNU 9.4.0
+[1.737s] -- Check for working C compiler: /usr/bin/cc
+[2.117s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.141s] -- Detecting C compiler ABI info
+[2.522s] -- Detecting C compiler ABI info - done
+[2.541s] -- Detecting C compile features
+[2.548s] -- Detecting C compile features - done
+[2.585s] -- Check for working CXX compiler: /usr/bin/c++
+[2.967s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.970s] -- Detecting CXX compiler ABI info
+[3.387s] -- Detecting CXX compiler ABI info - done
+[3.404s] -- Detecting CXX compile features
+[3.405s] -- Detecting CXX compile features - done
+[3.443s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.622s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.622s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.461s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[4.775s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.832s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.854s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.125s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.938s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.480s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[7.597s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[7.936s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[8.915s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.011s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.080s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[9.098s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[9.221s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[9.222s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.222s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[9.222s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[9.267s] -- Found PythonExtra: .so  
+[9.414s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[9.918s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.954s] -- Added test 'lint_cmake' to check CMake code style
+[9.977s] -- Added test 'xmllint' to check XML markup files
+[10.112s] -- Configuring done
+[10.505s] -- Generating done
+[10.588s] -- Build files have been written to: /home/simpson/Projects/ROS2/test1/build/my_interfaces
+[10.610s] Invoked command in '/home/simpson/Projects/ROS2/test1/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/simpson/Projects/ROS2/test1/src/my_interfaces -DCMAKE_INSTALL_PREFIX=/home/simpson/Projects/ROS2/test1/install/my_interfaces
+[10.622s] Invoking command in '/home/simpson/Projects/ROS2/test1/build/my_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/simpson/Projects/ROS2/test1/build/my_interfaces -- -j8 -l8
+[10.899s] [35m[1mScanning dependencies of target my_interfaces__cpp[0m
+[10.909s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[10.981s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[11.378s] [  6%] Built target my_interfaces__cpp
+[11.393s] [35m[1mScanning dependencies of target my_interfaces__rosidl_generator_c[0m
+[11.457s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[11.466s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.467s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[11.539s] [ 19%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/msg/detail/target_coordinates__functions.c.o[0m
+[11.801s] [35m[1mScanning dependencies of target my_interfaces__rosidl_typesupport_cpp[0m
+[11.863s] [35m[1mScanning dependencies of target my_interfaces__rosidl_typesupport_introspection_cpp[0m
+[11.873s] [35m[1mScanning dependencies of target my_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[11.949s] [ 22%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/msg/target_coordinates__type_support.cpp.o[0m
+[11.992s] [ 25%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/msg/detail/target_coordinates__type_support.cpp.o[0m
+[12.046s] [ 29%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/msg/detail/dds_fastrtps/target_coordinates__type_support.cpp.o[0m
+[12.113s] [ 32%] [32m[1mLinking C shared library libmy_interfaces__rosidl_generator_c.so[0m
+[12.296s] [ 32%] Built target my_interfaces__rosidl_generator_c
+[12.380s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.385s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.720s] [35m[1mScanning dependencies of target my_interfaces__rosidl_typesupport_c[0m
+[12.808s] [35m[1mScanning dependencies of target my_interfaces__rosidl_typesupport_introspection_c[0m
+[12.855s] [ 41%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/msg/target_coordinates__type_support.cpp.o[0m
+[12.940s] [ 45%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/msg/detail/target_coordinates__type_support.c.o[0m
+[13.022s] [ 48%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_cpp.so[0m
+[13.025s] [ 51%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[13.051s] [ 54%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_c.so[0m
+[13.185s] [ 58%] [32m[1mLinking C shared library libmy_interfaces__rosidl_typesupport_introspection_c.so[0m
+[13.303s] [ 58%] Built target my_interfaces__rosidl_typesupport_cpp
+[13.321s] [ 58%] Built target my_interfaces__rosidl_typesupport_c
+[13.321s] [ 58%] Built target my_interfaces__rosidl_typesupport_introspection_cpp
+[13.397s] [ 58%] Built target my_interfaces__rosidl_typesupport_introspection_c
+[13.463s] [ 61%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.754s] [ 61%] Built target my_interfaces__rosidl_typesupport_fastrtps_cpp
+[13.847s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[14.250s] [35m[1mScanning dependencies of target my_interfaces__rosidl_typesupport_fastrtps_c[0m
+[14.393s] [ 67%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/msg/detail/target_coordinates__type_support_c.cpp.o[0m
+[14.925s] [ 70%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[15.189s] [ 70%] Built target my_interfaces__rosidl_typesupport_fastrtps_c
+[15.271s] [35m[1mScanning dependencies of target my_interfaces[0m
+[15.335s] [ 70%] Built target my_interfaces
+[15.424s] [35m[1mScanning dependencies of target my_interfaces__py[0m
+[15.495s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[16.276s] [ 74%] Built target my_interfaces__py
+[16.376s] [35m[1mScanning dependencies of target my_interfaces__python[0m
+[17.159s] [ 77%] [32mBuilding C object CMakeFiles/my_interfaces__python.dir/rosidl_generator_py/my_interfaces/msg/_target_coordinates_s.c.o[0m
+[17.697s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/my_interfaces/libmy_interfaces__python.so[0m
+[17.882s] [ 80%] Built target my_interfaces__python
+[17.993s] [35m[1mScanning dependencies of target my_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[17.994s] [35m[1mScanning dependencies of target my_interfaces__rosidl_typesupport_c__pyext[0m
+[17.997s] [35m[1mScanning dependencies of target my_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[18.194s] [ 83%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[18.196s] [ 87%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[18.201s] [ 90%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[18.558s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[18.558s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[18.589s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[18.834s] [100%] Built target my_interfaces__rosidl_typesupport_c__pyext
+[18.857s] [100%] Built target my_interfaces__rosidl_typesupport_introspection_c__pyext
+[18.951s] [100%] Built target my_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[19.109s] Invoked command in '/home/simpson/Projects/ROS2/test1/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/simpson/Projects/ROS2/test1/build/my_interfaces -- -j8 -l8
+[19.837s] Invoking command in '/home/simpson/Projects/ROS2/test1/build/my_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/simpson/Projects/ROS2/test1/build/my_interfaces
+[19.875s] -- Install configuration: ""
+[19.882s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_interfaces
+[19.889s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces
+[19.890s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg
+[19.890s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail
+[19.891s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/target_coordinates__functions.c
+[19.893s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/target_coordinates__functions.h
+[19.895s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/target_coordinates__struct.h
+[19.897s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/target_coordinates__type_support.h
+[19.898s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/rosidl_generator_c__visibility_control.h
+[19.900s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/target_coordinates.h
+[19.907s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/environment/library_path.sh
+[19.909s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/environment/library_path.dsv
+[19.915s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so
+[19.922s] -- Set runtime path of "/home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so" to ""
+[19.922s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces
+[19.922s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg
+[19.922s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail
+[19.923s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/target_coordinates__rosidl_typesupport_fastrtps_c.h
+[19.925s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[19.927s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so
+[19.933s] -- Set runtime path of "/home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[19.933s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces
+[19.933s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg
+[19.933s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail
+[19.934s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/dds_fastrtps
+[19.934s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/target_coordinates__rosidl_typesupport_fastrtps_cpp.hpp
+[19.936s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[19.938s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[19.945s] -- Set runtime path of "/home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[19.945s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces
+[19.945s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg
+[19.945s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail
+[19.946s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/target_coordinates__rosidl_typesupport_introspection_c.h
+[19.948s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/target_coordinates__type_support.c
+[19.950s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[19.952s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so
+[19.958s] -- Set runtime path of "/home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[19.958s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so
+[19.966s] -- Set runtime path of "/home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so" to ""
+[19.966s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces
+[19.966s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg
+[19.966s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail
+[19.966s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/target_coordinates__builder.hpp
+[19.974s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/target_coordinates__struct.hpp
+[19.976s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/target_coordinates__traits.hpp
+[19.983s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/target_coordinates.hpp
+[19.990s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces
+[19.990s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg
+[19.990s] -- Up-to-date: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail
+[19.991s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/target_coordinates__rosidl_typesupport_introspection_cpp.hpp
+[19.997s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/include/my_interfaces/msg/detail/target_coordinates__type_support.cpp
+[19.999s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so
+[20.009s] -- Set runtime path of "/home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[20.009s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so
+[20.019s] -- Set runtime path of "/home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so" to ""
+[20.019s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/environment/pythonpath.sh
+[20.026s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/environment/pythonpath.dsv
+[20.032s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/__init__.py
+[20.103s] Compiling '/home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/__init__.py'...
+[20.107s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/msg
+[20.107s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/msg/_target_coordinates.py
+[20.115s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/msg/_target_coordinates_s.c
+[20.117s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/msg/__init__.py
+[20.124s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[20.136s] -- Set runtime path of "/home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[20.136s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[20.147s] -- Set runtime path of "/home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[20.148s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[20.161s] -- Set runtime path of "/home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[20.162s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/libmy_interfaces__python.so
+[20.169s] -- Set runtime path of "/home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/libmy_interfaces__python.so" to ""
+[20.170s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/msg/TargetCoordinates.idl
+[20.172s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/msg/TargetCoordinates.msg
+[20.174s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/ament_index/resource_index/package_run_dependencies/my_interfaces
+[20.180s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/ament_index/resource_index/parent_prefix_path/my_interfaces
+[20.186s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.sh
+[20.188s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.dsv
+[20.194s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/environment/path.sh
+[20.196s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/environment/path.dsv
+[20.202s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/local_setup.bash
+[20.205s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/local_setup.sh
+[20.208s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/local_setup.zsh
+[20.210s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/local_setup.dsv
+[20.216s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/package.dsv
+[20.223s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/ament_index/resource_index/packages/my_interfaces
+[20.224s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_generator_cExport.cmake
+[20.233s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_generator_cExport-noconfig.cmake
+[20.241s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[20.250s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[20.258s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport.cmake
+[20.265s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[20.274s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_generator_cppExport.cmake
+[20.282s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[20.291s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[20.301s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport.cmake
+[20.309s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[20.316s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake-extras.cmake
+[20.318s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.321s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[20.324s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[20.326s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.327s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[20.329s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[20.331s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig.cmake
+[20.334s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig-version.cmake
+[20.337s] -- Installing: /home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/package.xml
+[20.350s] Invoked command in '/home/simpson/Projects/ROS2/test1/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/simpson/Projects/ROS2/test1/build/my_interfaces

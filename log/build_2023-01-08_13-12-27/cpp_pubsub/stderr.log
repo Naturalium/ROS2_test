@@ -1,0 +1,31 @@
+[01m[K/home/simpson/Projects/ROS2/test1/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/simpson/Projects/ROS2/test1/src/cpp_pubsub/src/publisher_member_function.cpp:34:45:[m[K [01;31m[Kerror: [m[K‘[01m[Ktutorial_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   34 |     publisher_new_ = this->create_publisher<[01;31m[Ktutorial_interfaces[m[K::msg::Num>("topic2", 10);
+      |                                             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                             [32m[Krcl_interfaces[m[K
+[01m[K/home/simpson/Projects/ROS2/test1/src/cpp_pubsub/src/publisher_member_function.cpp:34:28:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   34 |     publisher_new_ = this->[01;31m[Kcreate_publisher<tutorial_interfaces::msg::Num>[m[K("topic2", 10);
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/simpson/Projects/ROS2/test1/src/cpp_pubsub/src/publisher_member_function.cpp:34:88:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::create_publisher<<expression error> >(const char [7], int)[m[K’
+   34 |     publisher_new_ = this->create_publisher<tutorial_interfaces::msg::Num>("topic2", 10[01;31m[K)[m[K;
+      |                                                                                        [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/simpson/Projects/ROS2/test1/src/cpp_pubsub/src/publisher_member_function.cpp:18[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+   71 | [01;36m[KNode[m[K::create_publisher(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/simpson/Projects/ROS2/test1/src/cpp_pubsub/src/publisher_member_function.cpp:34:88:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   34 |     publisher_new_ = this->create_publisher<tutorial_interfaces::msg::Num>("topic2", 10[01;31m[K)[m[K;
+      |                                                                                        [01;31m[K^[m[K
+[01m[K/home/simpson/Projects/ROS2/test1/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/simpson/Projects/ROS2/test1/src/cpp_pubsub/src/publisher_member_function.cpp:43:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ktutorial_interfaces[m[K’ has not been declared
+   43 |     auto message_2 = [01;31m[Ktutorial_interfaces[m[K::msg::Num();
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

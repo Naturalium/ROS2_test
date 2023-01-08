@@ -1,0 +1,15 @@
+[0.065s] Invoking command in '/home/simpson/Projects/ROS2/test1/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/simpson/Projects/ROS2/test1/build/my_interfaces -- -j8 -l8
+[0.381s] [  2%] Built target my_interfaces__cpp
+[0.404s] [ 12%] Built target my_interfaces__rosidl_generator_c
+[0.590s] [ 23%] Built target my_interfaces__rosidl_typesupport_cpp
+[0.597s] [ 34%] Built target my_interfaces__rosidl_typesupport_introspection_cpp
+[0.613s] [ 55%] Built target my_interfaces__rosidl_typesupport_c
+[0.614s] [ 55%] Built target my_interfaces__rosidl_typesupport_introspection_c
+[0.618s] [ 65%] Built target my_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.750s] [ 76%] Built target my_interfaces__rosidl_typesupport_fastrtps_c
+[0.862s] [ 76%] Built target my_interfaces
+[0.985s] [ 78%] Built target my_interfaces__py
+[1.122s] [ 87%] Built target my_interfaces__python
+[1.264s] [ 91%] Built target my_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.271s] [100%] Built target my_interfaces__rosidl_typesupport_c__pyext
+[1.271s] [100%] Built target my_interfaces__rosidl_typesupport_fastrtps_c__pyext

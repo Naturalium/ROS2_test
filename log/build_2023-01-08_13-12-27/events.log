@@ -1,0 +1,152 @@
+[0.000000] (-) TimerEvent: {}
+[0.000472] (-) JobUnselected: {'identifier': 'my_interfaces'}
+[0.000548] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict([('my_interfaces', '/home/simpson/Projects/ROS2/test1/install/my_interfaces')])}
+[0.000597] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.071442] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.073160] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.074318] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/simpson/Projects/ROS2/test1/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/simpson/Projects/ROS2/test1/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'simpson'), ('GIT_ASKPASS', '/home/simpson/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/simpson/Projects/ROS2/test1/install/my_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/simpson'), ('OLDPWD', '/home/simpson/Projects/ROS2/test1/src'), ('TERM_PROGRAM_VERSION', '1.74.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-4077acd1-6166-4ae1-9577-dd2345addcae.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/simpson/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/simpson/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('COLCON_PREFIX_PATH', '/home/simpson/Projects/ROS2/test1/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'simpson'), ('NAME', 'Code'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/simpson/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04LTS_2004.5.11.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/msys64/mingw64/bin:/mnt/c/msys65/usr/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Husarnet/bin:/mnt/c/Users/USER/AppData/Local/Programs/Python/Python35/Scripts/:/mnt/c/Users/USER/AppData/Local/Programs/Python/Python35/:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Bandizip/:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('DISPLAY', 'localhost:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-b4c392418b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/simpson/Projects/ROS2/test1/install/cpp_pubsub:/home/simpson/Projects/ROS2/test1/install/my_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/simpson/Projects/ROS2/test1/build/cpp_pubsub'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/simpson/Projects/ROS2/test1/install/my_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/simpson/Projects/ROS2/test1/install/my_interfaces:/home/simpson/Projects/ROS2/test1/install/cpp_pubsub:/opt/ros/foxy'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.112871] (-) TimerEvent: {}
+[0.168410] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.208675] (cpp_pubsub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.219423] (-) TimerEvent: {}
+[0.326214] (-) TimerEvent: {}
+[0.432820] (-) TimerEvent: {}
+[0.539602] (-) TimerEvent: {}
+[0.559110] (cpp_pubsub) StdoutLine: {'line': b'-- Found my_interfaces: 0.0.0 (/home/simpson/Projects/ROS2/test1/install/my_interfaces/share/my_interfaces/cmake)\n'}
+[0.608598] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.613362] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.646728] (-) TimerEvent: {}
+[0.753013] (-) TimerEvent: {}
+[0.860332] (-) TimerEvent: {}
+[0.968640] (-) TimerEvent: {}
+[1.052135] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.075324] (-) TimerEvent: {}
+[1.181965] (-) TimerEvent: {}
+[1.224412] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.267476] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.269813] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.288529] (-) TimerEvent: {}
+[1.381853] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.396094] (-) TimerEvent: {}
+[1.503039] (-) TimerEvent: {}
+[1.530247] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.533499] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.533778] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.533893] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.536769] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.536957] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.538288] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.541212] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.541342] (cpp_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.541926] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.560795] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.608421] (-) TimerEvent: {}
+[1.651807] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[1.684133] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/simpson/Projects/ROS2/test1/build/cpp_pubsub\n'}
+[1.715428] (-) TimerEvent: {}
+[1.820512] (-) TimerEvent: {}
+[1.839802] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[1.845075] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[1.927463] (-) TimerEvent: {}
+[1.933232] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[1.938354] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[2.033136] (-) TimerEvent: {}
+[2.140029] (-) TimerEvent: {}
+[2.247245] (-) TimerEvent: {}
+[2.352754] (-) TimerEvent: {}
+[2.457432] (-) TimerEvent: {}
+[2.564154] (-) TimerEvent: {}
+[2.669796] (-) TimerEvent: {}
+[2.775446] (-) TimerEvent: {}
+[2.881962] (-) TimerEvent: {}
+[2.988513] (-) TimerEvent: {}
+[3.094860] (-) TimerEvent: {}
+[3.201094] (-) TimerEvent: {}
+[3.308203] (-) TimerEvent: {}
+[3.409663] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/simpson/Projects/ROS2/test1/src/cpp_pubsub/src/publisher_member_function.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::MinimalPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.410080] (-) TimerEvent: {}
+[3.410232] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/simpson/Projects/ROS2/test1/src/cpp_pubsub/src/publisher_member_function.cpp:34:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.410647] (cpp_pubsub) StderrLine: {'line': b'   34 |     publisher_new_ = this->create_publisher<\x1b[01;31m\x1b[Ktutorial_interfaces\x1b[m\x1b[K::msg::Num>("topic2", 10);\n'}
+[3.410822] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.411109] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[3.411202] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/simpson/Projects/ROS2/test1/src/cpp_pubsub/src/publisher_member_function.cpp:34:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[3.411278] (cpp_pubsub) StderrLine: {'line': b'   34 |     publisher_new_ = this->\x1b[01;31m\x1b[Kcreate_publisher<tutorial_interfaces::msg::Num>\x1b[m\x1b[K("topic2", 10);\n'}
+[3.411365] (cpp_pubsub) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.411647] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/simpson/Projects/ROS2/test1/src/cpp_pubsub/src/publisher_member_function.cpp:34:88:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::create_publisher<<expression error> >(const char [7], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.411753] (cpp_pubsub) StderrLine: {'line': b'   34 |     publisher_new_ = this->create_publisher<tutorial_interfaces::msg::Num>("topic2", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.411838] (cpp_pubsub) StderrLine: {'line': b'      |                                                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.411912] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[3.412046] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[3.412129] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[3.412207] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[3.412294] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/simpson/Projects/ROS2/test1/src/cpp_pubsub/src/publisher_member_function.cpp:18\x1b[m\x1b[K:\n'}
+[3.412366] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.412487] (cpp_pubsub) StderrLine: {'line': b'   71 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::create_publisher(\n'}
+[3.412570] (cpp_pubsub) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.412664] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.412754] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/simpson/Projects/ROS2/test1/src/cpp_pubsub/src/publisher_member_function.cpp:34:88:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.412872] (cpp_pubsub) StderrLine: {'line': b'   34 |     publisher_new_ = this->create_publisher<tutorial_interfaces::msg::Num>("topic2", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.413230] (cpp_pubsub) StderrLine: {'line': b'      |                                                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.425759] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/simpson/Projects/ROS2/test1/src/cpp_pubsub/src/publisher_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.426108] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/simpson/Projects/ROS2/test1/src/cpp_pubsub/src/publisher_member_function.cpp:43:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.426286] (cpp_pubsub) StderrLine: {'line': b'   43 |     auto message_2 = \x1b[01;31m\x1b[Ktutorial_interfaces\x1b[m\x1b[K::msg::Num();\n'}
+[3.426375] (cpp_pubsub) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.521735] (-) TimerEvent: {}
+[3.626346] (-) TimerEvent: {}
+[3.731470] (-) TimerEvent: {}
+[3.836484] (-) TimerEvent: {}
+[3.942806] (-) TimerEvent: {}
+[4.048644] (-) TimerEvent: {}
+[4.154072] (-) TimerEvent: {}
+[4.260812] (-) TimerEvent: {}
+[4.366837] (-) TimerEvent: {}
+[4.473225] (-) TimerEvent: {}
+[4.475898] (cpp_pubsub) StderrLine: {'line': b'make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1\n'}
+[4.478352] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2\n'}
+[4.478744] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[4.578804] (-) TimerEvent: {}
+[4.684528] (-) TimerEvent: {}
+[4.789953] (-) TimerEvent: {}
+[4.894114] (-) TimerEvent: {}
+[5.000219] (-) TimerEvent: {}
+[5.107369] (-) TimerEvent: {}
+[5.214347] (-) TimerEvent: {}
+[5.321989] (-) TimerEvent: {}
+[5.427163] (-) TimerEvent: {}
+[5.534253] (-) TimerEvent: {}
+[5.641530] (-) TimerEvent: {}
+[5.749690] (-) TimerEvent: {}
+[5.856468] (-) TimerEvent: {}
+[5.961769] (-) TimerEvent: {}
+[6.067069] (-) TimerEvent: {}
+[6.174360] (-) TimerEvent: {}
+[6.280814] (-) TimerEvent: {}
+[6.386345] (-) TimerEvent: {}
+[6.493064] (-) TimerEvent: {}
+[6.598405] (-) TimerEvent: {}
+[6.704706] (-) TimerEvent: {}
+[6.811133] (-) TimerEvent: {}
+[6.917559] (-) TimerEvent: {}
+[7.024624] (-) TimerEvent: {}
+[7.131867] (-) TimerEvent: {}
+[7.238273] (-) TimerEvent: {}
+[7.344773] (-) TimerEvent: {}
+[7.450247] (-) TimerEvent: {}
+[7.555965] (-) TimerEvent: {}
+[7.663292] (-) TimerEvent: {}
+[7.770051] (-) TimerEvent: {}
+[7.876884] (-) TimerEvent: {}
+[7.944223] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[7.983520] (-) TimerEvent: {}
+[8.089532] (-) TimerEvent: {}
+[8.195964] (-) TimerEvent: {}
+[8.302836] (-) TimerEvent: {}
+[8.409515] (-) TimerEvent: {}
+[8.463155] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target listener\n'}
+[8.467016] (cpp_pubsub) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[8.472300] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[8.515835] (-) TimerEvent: {}
+[8.621573] (-) TimerEvent: {}
+[8.729177] (-) TimerEvent: {}
+[8.737642] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[8.740602] (-) EventReactorShutdown: {}
